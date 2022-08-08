@@ -14,6 +14,19 @@
 		ABE8AA96286FF06000D47C5A /* FlashCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE8AA95286FF06000D47C5A /* FlashCardsTests.swift */; };
 		ABE8AAA0286FF06000D47C5A /* FlashCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE8AA9F286FF06000D47C5A /* FlashCardsUITests.swift */; };
 		ABE8AAA2286FF06000D47C5A /* FlashCardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE8AAA1286FF06000D47C5A /* FlashCardsUITestsLaunchTests.swift */; };
+		ABE8AAAF286FF0A900D47C5A /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE8AAAE286FF0A900D47C5A /* FlashCard.swift */; };
+		ABE8AAB1286FF12500D47C5A /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE8AAB0286FF12500D47C5A /* Subject.swift */; };
+		ABE8AAB3286FF17200D47C5A /* FlashCardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE8AAB2286FF17200D47C5A /* FlashCardList.swift */; };
+		ABE8AAB5286FF1EC00D47C5A /* DbFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE8AAB4286FF1EC00D47C5A /* DbFunctions.swift */; };
+		ABE8AAB7286FFC4100D47C5A /* SubjectList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE8AAB6286FFC4100D47C5A /* SubjectList.swift */; };
+		ABE8AAB9286FFFD400D47C5A /* UpsertSubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE8AAB8286FFFD400D47C5A /* UpsertSubjectView.swift */; };
+		ABE8AABF2870083A00D47C5A /* CardsInSubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE8AABE2870083A00D47C5A /* CardsInSubjectView.swift */; };
+		ABE8AAC128700C3D00D47C5A /* UpsertFlashCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE8AAC028700C3D00D47C5A /* UpsertFlashCardView.swift */; };
+		ABE8AAC32872B80B00D47C5A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE8AAC22872B80B00D47C5A /* HomeView.swift */; };
+		ABE8AAC52872B90D00D47C5A /* CardFrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE8AAC42872B90D00D47C5A /* CardFrontView.swift */; };
+		ABE8AAC72872BC7C00D47C5A /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE8AAC62872BC7C00D47C5A /* QuizView.swift */; };
+		ABE8AAC928736A0E00D47C5A /* CardBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE8AAC828736A0E00D47C5A /* CardBackView.swift */; };
+		ABE8AAD128736DE600D47C5A /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE8AAD028736DE600D47C5A /* CardStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +57,19 @@
 		ABE8AA9B286FF06000D47C5A /* FlashCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE8AA9F286FF06000D47C5A /* FlashCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardsUITests.swift; sourceTree = "<group>"; };
 		ABE8AAA1286FF06000D47C5A /* FlashCardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABE8AAAE286FF0A900D47C5A /* FlashCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCard.swift; sourceTree = "<group>"; };
+		ABE8AAB0286FF12500D47C5A /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		ABE8AAB2286FF17200D47C5A /* FlashCardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardList.swift; sourceTree = "<group>"; };
+		ABE8AAB4286FF1EC00D47C5A /* DbFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DbFunctions.swift; sourceTree = "<group>"; };
+		ABE8AAB6286FFC4100D47C5A /* SubjectList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectList.swift; sourceTree = "<group>"; };
+		ABE8AAB8286FFFD400D47C5A /* UpsertSubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpsertSubjectView.swift; sourceTree = "<group>"; };
+		ABE8AABE2870083A00D47C5A /* CardsInSubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsInSubjectView.swift; sourceTree = "<group>"; };
+		ABE8AAC028700C3D00D47C5A /* UpsertFlashCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpsertFlashCardView.swift; sourceTree = "<group>"; };
+		ABE8AAC22872B80B00D47C5A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ABE8AAC42872B90D00D47C5A /* CardFrontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFrontView.swift; sourceTree = "<group>"; };
+		ABE8AAC62872BC7C00D47C5A /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		ABE8AAC828736A0E00D47C5A /* CardBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackView.swift; sourceTree = "<group>"; };
+		ABE8AAD028736DE600D47C5A /* CardStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +121,9 @@
 			isa = PBXGroup;
 			children = (
 				ABE8AA84286FF05F00D47C5A /* FlashCardsApp.swift */,
-				ABE8AA86286FF05F00D47C5A /* ContentView.swift */,
+				ABE8AAB4286FF1EC00D47C5A /* DbFunctions.swift */,
+				ABE8AACB28736C1A00D47C5A /* Models */,
+				ABE8AACC28736C4F00D47C5A /* Views */,
 				ABE8AA88286FF06000D47C5A /* Assets.xcassets */,
 				ABE8AA8A286FF06000D47C5A /* Preview Content */,
 			);
@@ -125,6 +153,57 @@
 				ABE8AAA1286FF06000D47C5A /* FlashCardsUITestsLaunchTests.swift */,
 			);
 			path = FlashCardsUITests;
+			sourceTree = "<group>";
+		};
+		ABE8AACB28736C1A00D47C5A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABE8AAAE286FF0A900D47C5A /* FlashCard.swift */,
+				ABE8AAB0286FF12500D47C5A /* Subject.swift */,
+				ABE8AAB2286FF17200D47C5A /* FlashCardList.swift */,
+				ABE8AAB6286FFC4100D47C5A /* SubjectList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ABE8AACC28736C4F00D47C5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ABE8AA86286FF05F00D47C5A /* ContentView.swift */,
+				ABE8AACD28736C6100D47C5A /* Admin */,
+				ABE8AACE28736C8800D47C5A /* Home */,
+				ABE8AACF28736CB000D47C5A /* Quiz */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ABE8AACD28736C6100D47C5A /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				ABE8AAB8286FFFD400D47C5A /* UpsertSubjectView.swift */,
+				ABE8AAC028700C3D00D47C5A /* UpsertFlashCardView.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		ABE8AACE28736C8800D47C5A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ABE8AABE2870083A00D47C5A /* CardsInSubjectView.swift */,
+				ABE8AAC22872B80B00D47C5A /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		ABE8AACF28736CB000D47C5A /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				ABE8AAC42872B90D00D47C5A /* CardFrontView.swift */,
+				ABE8AAC62872BC7C00D47C5A /* QuizView.swift */,
+				ABE8AAC828736A0E00D47C5A /* CardBackView.swift */,
+				ABE8AAD028736DE600D47C5A /* CardStackView.swift */,
+			);
+			path = Quiz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +336,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE8AAC52872B90D00D47C5A /* CardFrontView.swift in Sources */,
+				ABE8AAD128736DE600D47C5A /* CardStackView.swift in Sources */,
+				ABE8AABF2870083A00D47C5A /* CardsInSubjectView.swift in Sources */,
+				ABE8AAB7286FFC4100D47C5A /* SubjectList.swift in Sources */,
+				ABE8AAC928736A0E00D47C5A /* CardBackView.swift in Sources */,
+				ABE8AAC32872B80B00D47C5A /* HomeView.swift in Sources */,
+				ABE8AAB9286FFFD400D47C5A /* UpsertSubjectView.swift in Sources */,
+				ABE8AAB3286FF17200D47C5A /* FlashCardList.swift in Sources */,
+				ABE8AAC72872BC7C00D47C5A /* QuizView.swift in Sources */,
+				ABE8AAB1286FF12500D47C5A /* Subject.swift in Sources */,
+				ABE8AAAF286FF0A900D47C5A /* FlashCard.swift in Sources */,
 				ABE8AA87286FF05F00D47C5A /* ContentView.swift in Sources */,
+				ABE8AAC128700C3D00D47C5A /* UpsertFlashCardView.swift in Sources */,
 				ABE8AA85286FF05F00D47C5A /* FlashCardsApp.swift in Sources */,
+				ABE8AAB5286FF1EC00D47C5A /* DbFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
